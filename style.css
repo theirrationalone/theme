@@ -147,6 +147,10 @@ section {
 }
 
 .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
 }
 
@@ -156,6 +160,7 @@ section {
 }
 
 .home-container p {
+    width: 50rem;
     font-family: montserrat, sans-serif;
     font-size: 2rem;
 }
